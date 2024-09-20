@@ -1,0 +1,50 @@
+/* src/components/PDFViewer.css */
+.pdf-viewer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .pdf-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  
+  .pdf-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #351a05;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pdf-button:hover {
+    background-color: #351a05;
+  }
+  
+  .page-number {
+    margin: 0 15px;
+  }
+  
+  .pdf-canvas-container {
+    position: relative;
+  }
+  
+  .pdf-canvas {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .dark-mode .pdf-canvas {
+    filter: invert(1);
+  }
+  
+  .pdf-button {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
